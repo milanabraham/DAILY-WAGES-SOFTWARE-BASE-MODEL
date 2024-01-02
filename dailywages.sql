@@ -94,10 +94,6 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
 -- Dumping data for table `tbl_user`
 --
 
-INSERT INTO `tbl_user` (`Worker_ID`, `First_Name`, `Last_Name`, `Phone_No`, `Email`, `Pass`, `user_type`, `Designation`) VALUES
-(9, 'Sreehari', 'm', 21312, 'm@gmail.com', '999', 'admin', 'Garden'),
-(10, 'Tinu', 'tt', 122343342, 'tt@gmail.com', 'TT', 'user', 'Garden'),
-(11, 'Tejus', 'b', 32424432, 'cc@gmail.com', 'cc', 'user', 'Construction');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
