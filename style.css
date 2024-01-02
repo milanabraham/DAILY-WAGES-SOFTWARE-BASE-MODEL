@@ -1,0 +1,125 @@
+:root {
+    --text: #f0eff0;
+    --background: #2d0658;
+    --primary: #ae6df3;
+    --secondary: #171816;
+    --accent: #778383;
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    height: 40vh;
+    width: 20vw;
+    background-color: #A597FF82;
+    display: grid;
+    place-content: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(165, 151, 255, 0.61);
+}
+  
+  h2 {
+    color: var(--primary);
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Form Styles */
+  form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    display: block;
+    color: var(--text);
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    background-color: var(--secondary);
+    color: var(--text);
+  }
+  
+  select {
+    background-color: var(--secondary);
+  }
+  
+  input[type="submit"] {
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--accent);
+  }
+  
+  /* Menu Item Styles */
+  .menu-item {
+    background-color: var(--secondary);
+    padding: 20px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--text);
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid var(--accent);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: var(--primary);
+    color: var(--background);
+    font-weight: bold;
+  }
+  
+  /* Links */
+  a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--accent);
+  }
+  
